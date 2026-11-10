@@ -1,0 +1,2 @@
+# Fibra-Optica-Prueba-
+Armado de la fibra optica mediante recursos utilizados en clases. Tambien en la base del trabajo practico.
