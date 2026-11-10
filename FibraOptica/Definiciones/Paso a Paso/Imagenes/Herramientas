@@ -1,3 +1,69 @@
-# Fibra Optica Prueba
-Armado de la fibra optica mediante recursos utilizados en clases. Tambien en la base del trabajo practico.
+# 🧰 Catálogo de Herramientas para Empalme de Fibra Óptica
 
+> *Guía completa del instrumental técnico requerido para la preparación, corte, fusión y protección de hilos de fibra óptica.*
+
+---
+
+## 📋 Lista General de Herramientas y Consumibles
+
+| Herramienta / Insumo | Categoría | Función Principal | Nivel de Importancia |
+| :--- | :--- | :--- | :---: |
+| **Stripper (Peladora)** | Preparación | Remover recubrimientos plásticos de la fibra | 🔴 Crítico |
+| **Cleaver (Cortadora de Precisión)** | Corte | Realizar cortes planos a $90^\circ$ | 🔴 Crítico |
+| **Fusionadora (Splicer)** | Unión | Unir los hilos de vidrio mediante arco eléctrico | 🔴 Crítico |
+| **Alcohol Isopropílico ($99\%$)** | Limpieza | Quitar grasa y polvo del hilo al desnudo | 🟡 Indispensable |
+| **Paños Libres de Pelusa (Lint-free wipes)** | Limpieza | Secar y arrastrar impurezas sin dejar fibras | 🟡 Indispensable |
+| **Mangas Termoencogibles (Sleeves)** | Protección | Reforzar mecánicamente el punto de fusión | 🟡 Indispensable |
+
+---
+
+## 🔬 Detalle Técnico por Herramienta
+
+### 1. ✂️ Peladora de Fibra Óptica *(Stripper)*
+
+* **¿Para qué sirve?:** Cuenta con ranuras calibradas de alta precisión diseñadas para retirar las distintas capas de protección del cable (chaqueta exterior de $3\text{ mm}$, tubo de $900\ \mu\text{m}$ y acrilato de $250\ \mu\text{m}$) sin mellar el núcleo ni el revestimiento de vidrio de $125\ \mu\text{m}$.
+* **Uso correcto:** Mantener un ángulo de $45^\circ$ respecto a la fibra y realizar un tirón continuo y uniforme.
+* **⚠️ Precaución:** No utilizar peladoras convencionales de cobre; romperían el hilo de vidrio al instante.
+
+---
+
+### 2. 🔪 Cortadora de Precisión *(Cleaver)*
+
+* **¿Para qué sirve?:** Realiza un marcaje milimétrico con una hoja circular de diamante/carburo de tungsteno para fracturar la fibra limpiamente, logrando un ángulo de corte recto ($< 0.5^\circ$ de margen).
+* **Uso correcto:** Deslizar el carro de corte de un solo golpe firme sin ejercer presión excesiva sobre la fibra.
+* **⚠️ Precaución:** La fibra no se "corta" como un cable común; se raya microscópicamente y se fractura por tensión.
+
+---
+
+### 3. ⚡ Fusionadora de Arco Voltaico *(Splicer)*
+
+* **¿Para qué sirve?:** Equipada con microscopios e imágenes en ejes $X$ e $Y$, alinea automáticamente los núcleos de ambas fibras y dispara una descarga eléctrica de alto voltaje que derrite el cristal a más de $1800^\circ\text{C}$ para unirlas.
+* **Uso correcto:** Mantener limpios los electrodos y las guías en V (*V-grooves*).
+* **⚠️ Precaución:** No tocar los electrodos durante la prueba de arco ni operar cerca de gases inflamables.
+
+---
+
+### 4. 🧪 Alcohol Isopropílico ($99\%$) y Paños Libres de Pelusa
+
+* **¿Para qué sirve?:** Desengrasar la fibra al descubierto inmediatamente después de pelarla. El alcohol estándar de farmacia contiene agua que deja marcas de secado.
+* **Uso correcto:** Humedecer el paño, envolver el hilo pelado y deslizar hacia afuera una sola vez (se debe escuchar un silbido característico de limpieza).
+* **⚠️ Precaución:** Nunca limpiar la fibra *después* de haberla cortado con la cortadora de precisión, ya que podrías contaminar la punta del corte.
+
+---
+
+### 5. 🛡️ Manga de Protección Termoencogible *(Sleeve)*
+
+* **¿Para qué sirve?:** Es una funda que contiene un tubo termoendurecible exterior, una guía interna de acero inoxidable y un tubo de fusión interno. Protege el cristal expuesto de quebraduras mecánicas y filtraciones de humedad.
+* **Uso correcto:** Se coloca en uno de los hilos de fibra **antes** de pelarlo o cortarlo. Al finalizar la fusión, se posiciona sobre la unión y se hornea entre $20$ y $30$ segundos.
+
+---
+
+## 📊 Tabla Comparativa de Etapas y Herramientas
+
+| Etapa del Proceso | Herramienta Utilizada | Resultado Esperado |
+| :--- | :--- | :--- |
+| **1. Desnudar** | Peladora (Stripper) | Vidrio al desnudo de $125\ \mu\text{m}$ expuesto. |
+| **2. Higienizar** | Alcohol 99% + Paño | Fibra crujiente, libre de grasa y residuos. |
+| **3. Fracturar** | Cortadora de Precisión | Cara del cristal totalmente plana a $90^\circ$. |
+| **4. Soldar** | Fusionadora de arco | Núcleos alineados y fusión con atenuación $< 0.02\text{ dB}$. |
+| **5. Proteger** | Manga termoencogible + Horno | Unión sellada, rígida y protegida contra tirones. |
