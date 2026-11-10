@@ -1,1 +1,74 @@
+# 📚 Glosario Visual y Térmicos Técnicos de Fibra Óptica
 
+> *Diccionario explicativo de conceptos, componentes y fenómenos de fibra óptica adaptado para personas no familiarizadas con la materia.*
+
+---
+
+## 📋 Cuadro General de Conceptos
+
+| Término Técnico | ¿Qué significa? (Explicación sencilla) | Impacto en la Red | 
+| ----- | ----- | ----- | 
+| **Núcleo (Core)** | El hilo ultra delgado de vidrio por donde viaja el haz de luz (los datos). | 🔴 Fundamental | 
+| **Revestimiento (Cladding)** | Capa de vidrio alrededor del núcleo que actúa como espejo interno. | 🔴 Fundamental | 
+| **Recubrimiento (Coating/Buffer)** | Capa de plástico de color que protege la fibra de rayaduras y humedad. | 🟡 Medio | 
+| **Empalme por Fusión** | La unión física de dos extremos de vidrio usando calor eléctrico. | 🔴 Crítico | 
+| **Atenuación** | Pérdida de potencia o intensidad de la señal de luz al viajar. | 🔴 Crítico | 
+| **Dispersión** | Deformación del pulso de luz por ensanchamiento a lo largo del cable. | 🟡 Medio | 
+| **Reflectancia (ORL)** | Cantidad de luz que "rebota" de regreso hacia la fuente o láser. | 🟡 Medio | 
+
+---
+
+## 🔬 Detalle Término por Término
+
+```
+### 1. 💡 Núcleo (Core) y Revestimiento (Cladding)
+
+* **Definición:** El núcleo es la zona central por donde viaja la luz. El revestimiento rodea al núcleo y tiene un índice de refracción menor, obligando a la luz a rebotar internamente.
+* **Analogía:** Imagina un tubo con paredes de espejo por donde apuntas una linterna: la luz no puede salir y viaja rebotando de extremo a extremo.
+
+```
+
+```
+### 2. ⚡ Empalme por Fusión (Fusion Splicing)
+
+* **Definición:** Proceso mediante el cual dos fibras se derriten a más de 1800 °C con un arco eléctrico para unirse permanentemente.
+* **Objetivo:** Lograr que la unión se comporte como si fuera un solo hilo continuo de vidrio, sin interrupción para el paso de la luz.
+
+```
+
+```
+### 3. 📉 Atenuación (Attenuation)
+
+* **Definición:** La disminución gradual de la fuerza del haz de luz a medida que recorre la fibra. Se mide en decibelios por kilómetro ($dB/km$).
+* **Causas comunes:** Suciedad en conectores, microcurvaturas en el cable, mala fusión o imperfecciones del vidrio.
+
+```
+
+```
+### 4. 🔀 Monomodo (SM) vs. Multimodo (MM)
+
+* **Monomodo (Single Mode):** Núcleo muy fino ($9\ \mu\text{m}$). Viaja un solo rayo de luz recto. Diseñado para distancias de decenas o cientos de kilómetros.
+* **Multimodo (Multi Mode):** Núcleo más grueso ($50\ \mu\text{m}$ o $62.5\ \mu\text{m}$). Viajan múltiples rayos de luz rebotando. Usado en distancias cortas (redes LAN, Data Centers).
+
+```
+
+## 📊 Comparación Técnica de Tipos de Fibra
+
+| Propiedad | 🔵 Monomodo (SM) | 🟠 Multimodo (MM) | Sintaxis Markdown | 
+| ----- | ----- | ----- | ----- | 
+| **Diámetro del Núcleo** | $9\ \mu\text{m}$ | $50\ \mu\text{m}\text{ a }62.5\ \mu\text{m}$ | `$9\ \mu\text{m}$` | 
+| **Fuente de Luz** | Láser | LED / VCSEL | `Láser vs LED` | 
+| **Distancia Máxima** | Hasta $40\text{ km}+$ | Hasta $550\text{ m}$ aprox. | `Distancia` | 
+| **Color de Cubierta Estándar** | Amarillo | Naranja / Turquesa (Aqua) | `Color` | 
+
+---
+
+## 💻 Bloque de Código para Copiar a GitHub (`definiciones/README.md`)
+
+```markdown
+# 📂 Carpeta Definiciones
+
+Este directorio almacena el glosario técnico y las explicaciones didácticas sobre los conceptos fundamentales de la fibra óptica.
+
+- `DEFINICIONES.md`: Glosario interactivo estructurado con tablas e imágenes explicativas.
+```
